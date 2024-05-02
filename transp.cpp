@@ -4,7 +4,9 @@
 using namespace std;
 using namespace cv;
 
-void drawTransparency(Mat frame, Mat transp, int xPos, int yPos){ //função para desenhar algo com transparência, como parametros temos a matriz(frame) na qual iremos desenhar a imagem(transp) na posição xPos, yPos de acordo com a orientação da matriz, na qual se aumenta da esquerda para direita e de cima para baixo
+//função para desenhar algo com transparência, como parametros temos a matriz(frame) na qual iremos desenhar a imagem(transp)
+//na posição xPos, yPos de acordo com a orientação da matriz, na qual se aumenta da esquerda para direita e de cima para baixo
+void drawTransparency(Mat frame, Mat transp, int xPos, int yPos){
     Mat mask;
     vector<Mat> layers;
 

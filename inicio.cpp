@@ -14,7 +14,7 @@ using namespace cv;
 
 //para se fazer uma atribuição do jeito que esperariamos é necessário fazer 
 //Mat orange = imread("imagens/orange.png", IMREAD_UNCHANGED);
-//Mat mat1 = orange.clone()
+//Mat mat1 = orange.clone();
 
 
 int main(){
