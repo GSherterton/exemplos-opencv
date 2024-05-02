@@ -1,0 +1,1 @@
+g++ -std=c++11 nomeDoExemplo.cpp `pkg-config --cflags opencv4` `pkg-config --libs --static opencv4` -o teste
